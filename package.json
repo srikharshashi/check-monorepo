@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build &&(cp  ./dist ./server) ",
     "preview": "vite preview",
-    "prod":"npm run build && (cd server && npm run prod)"
+    "prod":"cd server && npm run prod"
 
   },
   "dependencies": {
