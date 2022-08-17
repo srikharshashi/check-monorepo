@@ -5,12 +5,12 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require('path');
 
-app.use(
-  cors({
-    origin:"*",
-    exposedHeaders: ["auth-token"],
-  })
-);
+// app.use(
+//   cors({
+//     origin:"*",
+//     exposedHeaders: ["auth-token"],
+//   })
+// );
 
 // Route imports
 const authRoute = require("./routes/auth");
@@ -42,6 +42,6 @@ app.get('/*', function (req, res) {
 });
 
 
-app.listen(parseInt(process.env.PORT), () => {
+app.listen(6931, () => {
   console.log(`The server is listening on ${process.env.PORT}`);
 });
