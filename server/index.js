@@ -5,12 +5,12 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require('path');
 
-// app.use(
-//   cors({
-//     origin:"*",
-//     exposedHeaders: ["auth-token"],
-//   })
-// );
+app.use(
+  cors({
+    origin:process.env.VITE_BASE_URL,
+    exposedHeaders: ["auth-token"],
+  })
+);
 
 // Route imports
 const authRoute = require("./routes/auth");
