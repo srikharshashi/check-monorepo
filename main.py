@@ -9,7 +9,7 @@ desp = ['Engineering & Technology', 'Aeronautical Engineering', 'Agriculture Eng
         'Mechanical Engineering', 'Metallurgical Engineering', 'Mining Engineering', 'Other Engineering & Technology', 'Planning', 'Transportation Planning', 'Urban Planning', 'IT & Computer', 'Animation', 'Computer Application', 'Computer Science', 'Graphics', 'Information Technology', 'Multi Media']
 
 StateXdist = {
-    "states": [
+    "states": [  
         {
             "state": "Andhra Pradesh",
             "districts": [
