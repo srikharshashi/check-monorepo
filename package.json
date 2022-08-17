@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && (cd server && rm -rf dist) &(cd ..) &&(mv -f ./dist ./server) ",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "prod":"npm run build && (cd server && npm run prod)"
 
