@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.svg-map__location {
+  /* fill: #1e1e30; */
+  border: 20px solid white;
+  outline: 20px;
+  cursor: pointer;
+}
+
+.svg-map__location:hover {
+  /* fill: gray; */
+  border: 20px solid white;
+  outline: 20px;
+}
+
+.letsSEE {
+  background-color: #171729;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(152.5, 26%, 18%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(298.8, 44%, 13%) 0, transparent 55%);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.svg-map__location:hover {
+  /* fill: gray; */
+  stroke-width: 3px;
+  border: 20px solid white;
+  outline: 20px;
+}
+.svg-map__location:focus {
+  /* fill: gray; */
+  stroke-width: 3px;
+  border: 20px solid white;
+  outline: 20px;
+}
+
+.IndianMap path {
+  fill: white;
+  stroke: #bebebe;
+  stroke-width: 1px;
+  /* stroke-dasharray: 1, 1; */
+  stroke-linejoin: round;
+}
+
+.Cardbg {
+  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+}
+.Cardbg1 {
+  background: linear-gradient(-45deg, #f321d7, #ffec61);
+}
+.Cardbg2 {
+  background: linear-gradient(-45deg, #24ff72, #9a4eff);
+}
+
+.IndianMap:hover {
+  display: block !important;
+}
+
+.DailogeBOX {
+  transition: width 2s, transform 2s;
+  background-color: #1e1e30 !important;
+  transition-timing-function: ease-in-out;
+}
+
+.Final_Table {
+  padding: 1rem;
+}
